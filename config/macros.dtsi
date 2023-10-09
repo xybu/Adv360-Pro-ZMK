@@ -2,31 +2,31 @@ macro_new_term_here: macro_new_term_here{
 compatible = "zmk,behavior-macro";
 label = "macro_new_term_here";
 #binding-cells = <0>;
-bindings = <&kp LSHIFT(F2)>;
+bindings = <&sk LSHFT>, <&kp F2>;
 };
 macro_new_term: macro_new_term{
 compatible = "zmk,behavior-macro";
 label = "macro_new_term";
 #binding-cells = <0>;
-bindings = <&kp LSHIFT(F1)>;
+bindings = <&sk LSHFT>, <&kp F1>;
 };
 macro_newtab_win: macro_newtab_win{
 compatible = "zmk,behavior-macro";
 label = "macro_newtab_win";
 #binding-cells = <0>;
-bindings = <&kp LCTRL(LSHIFT(T))>;
+bindings = <&sk LCTRL(LSHIFT)>, <&kp T>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LCMD(V)>;
+bindings = <&kp K_PASTE>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LCMD(C)>;
+bindings = <&kp K_COPY>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
