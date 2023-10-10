@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
-            &kp F1           &kp F2                &kp F3       &kp F4        &kp F5  &kp F6                          &tog 1                                                                                      &mo 3          &kp F7    &kp F8     &kp F9    &kp F10   &kp F11  &kp F12
- &macro_newtab_win  &macro_new_term  &macro_new_term_here       &trans        &trans  &trans                           &none                                                                                      &none        &kp LBKT  &kp LBRC  &kp EQUAL   &kp RBRC  &kp RBKT   &trans
-            &trans           &trans                &trans       &trans        &trans  &trans                           &none                 &trans  &kp LCTRL                  &kp PLUS       &kp MINUS          &none  &macro_dquotes  &kp LEFT     &kp UP  &kp RIGHT    &trans   &trans
-            &trans           &trans                &trans  &macro_copy  &macro_paste  &trans                                                            &trans                    &trans                                  &macro_quotes  &kp HOME   &kp DOWN    &kp END    &trans   &trans
-            &trans           &trans                &trans       &trans        &trans                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &trans                    &trans  &kp UNDERSCORE  &macro_parens                    &trans     &trans     &trans    &trans   &trans
+            &kp F1           &kp F2                &kp F3       &kp F4        &kp F5  &kp F6                          &tog 1                                                                                                   &mo 3          &kp F7    &kp F8     &kp F9    &kp F10   &kp F11  &kp F12
+ &macro_newtab_win  &macro_new_term  &macro_new_term_here       &trans        &trans  &trans                           &none                                                                                                   &none        &kp LBKT  &kp LBRC  &kp EQUAL   &kp RBRC  &kp RBKT   &trans
+            &trans           &trans                &trans       &trans        &trans  &trans                           &none                 &trans      &kp LCTRL                           &kp PLUS       &kp MINUS          &none  &macro_dquotes  &kp LEFT     &kp UP  &kp RIGHT    &trans   &trans
+            &trans           &trans                &trans  &macro_copy  &macro_paste  &trans                                                         &kp AMPERSAND                  &kp DOUBLE_QUOTES                                  &macro_quotes  &kp HOME   &kp DOWN    &kp END    &trans   &trans
+            &trans           &trans                &trans       &trans        &trans                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp PIPE                   &kp SINGLE_QUOTE  &kp UNDERSCORE  &macro_parens                    &trans     &trans     &trans    &trans   &trans
             >;
         };
 
